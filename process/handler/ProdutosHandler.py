@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 from pprint import pprint
+=======
+>>>>>>> 24529ffbb29919beecd309c69d25b33aced7dadd
 from process.mapping.Imposto import II
 from process.mapping.Imposto.COFINS import COFINS
 from process.mapping.Imposto.COFINSST import COFINSST
