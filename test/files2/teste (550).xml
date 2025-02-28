@@ -1,0 +1,221 @@
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+      <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe11191004922336000162550010000225741005412676" versao="4.00">
+          <ide>
+            <cUF>11</cUF>
+            <cNF>00541267</cNF>
+            <natOp>VENDA NO ESTADO</natOp>
+            <mod>55</mod>
+            <serie>1</serie>
+            <nNF>22574</nNF>
+            <dhEmi>2019-10-21T00:00:00-04:00</dhEmi>
+            <dhSaiEnt>2019-10-21T00:00:00-04:00</dhSaiEnt>
+            <tpNF>1</tpNF>
+            <idDest>1</idDest>
+            <cMunFG>1100205</cMunFG>
+            <tpImp>1</tpImp>
+            <tpEmis>1</tpEmis>
+            <cDV>6</cDV>
+            <tpAmb>1</tpAmb>
+            <finNFe>1</finNFe>
+            <indFinal>0</indFinal>
+            <indPres>0</indPres>
+            <procEmi>0</procEmi>
+            <verProc>3.0.0.0</verProc>
+          </ide>
+          <emit>
+            <CNPJ>04922336000162</CNPJ>
+            <xNome>J.M.CALDIM ROLAMENTOS RETENTORES E PECAS - EPP</xNome>
+            <xFant>CENTRO DOS ROLAMENTOS</xFant>
+            <enderEmit>
+              <xLgr>RUA ALMIRANTE BARROSO</xLgr>
+              <nro>1830</nro>
+              <xCpl>B</xCpl>
+              <xBairro>NOSSA SENHORA DAS GRACAS</xBairro>
+              <cMun>1100205</cMun>
+              <xMun>PORTO VELHO</xMun>
+              <UF>RO</UF>
+              <CEP>76804182</CEP>
+              <cPais>1058</cPais>
+              <xPais>BRASIL</xPais>
+              <fone>6932233291</fone>
+            </enderEmit>
+            <IE>00000001067711</IE>
+            <CRT>1</CRT>
+          </emit>
+          <dest>
+            <CNPJ>34538850000674</CNPJ>
+            <xNome>NORTE COM.PCS E ACESS.P/VEICULOS LTDA.</xNome>
+            <enderDest>
+              <xLgr>AV.MACANGANA NR.2550 LOTE 21 QUADRA 01</xLgr>
+              <nro>000</nro>
+              <xBairro>SETOR APOIO BR 364</xBairro>
+              <cMun>1100023</cMun>
+              <xMun>ARIQUEMES</xMun>
+              <UF>RO</UF>
+              <CEP>78930000</CEP>
+              <cPais>1058</cPais>
+              <xPais>BRASIL</xPais>
+              <fone>35360405</fone>
+            </enderDest>
+            <indIEDest>1</indIEDest>
+            <IE>00000001251767</IE>
+          </dest>
+          <det nItem="1">
+            <prod>
+              <cProd>109628</cProd>
+              <cEAN>SEM GTIN</cEAN>
+              <xProd>10-9-628 ROL 7310 NTN</xProd>
+              <NCM>84821010</NCM>
+              <CEST>0104900</CEST>
+              <CFOP>5405</CFOP>
+              <uCom>PC</uCom>
+              <qCom>10.0000</qCom>
+              <vUnCom>370.0000000000</vUnCom>
+              <vProd>3700.00</vProd>
+              <cEANTrib>SEM GTIN</cEANTrib>
+              <uTrib>PC</uTrib>
+              <qTrib>10.0000</qTrib>
+              <vUnTrib>370.0000000000</vUnTrib>
+              <indTot>1</indTot>
+            </prod>
+            <imposto>
+              <vTotTrib>1808.56</vTotTrib>
+              <ICMS>
+                <ICMSSN500>
+                  <orig>1</orig>
+                  <CSOSN>500</CSOSN>
+                  <vBCSTRet>0.00</vBCSTRet>
+                  <pST>0.0000</pST>
+                  <vICMSSTRet>0.00</vICMSSTRet>
+                </ICMSSN500>
+              </ICMS>
+              <PIS>
+                <PISQtde>
+                  <CST>03</CST>
+                  <qBCProd>0.0000</qBCProd>
+                  <vAliqProd>0.0000</vAliqProd>
+                  <vPIS>0.00</vPIS>
+                </PISQtde>
+              </PIS>
+              <COFINS>
+                <COFINSAliq>
+                  <CST>01</CST>
+                  <vBC>0.00</vBC>
+                  <pCOFINS>0.0000</pCOFINS>
+                  <vCOFINS>0.00</vCOFINS>
+                </COFINSAliq>
+              </COFINS>
+            </imposto>
+          </det>
+          <total>
+            <ICMSTot>
+              <vBC>0.00</vBC>
+              <vICMS>0.00</vICMS>
+              <vICMSDeson>0.00</vICMSDeson>
+              <vFCP>0.00</vFCP>
+              <vBCST>0.00</vBCST>
+              <vST>0.00</vST>
+              <vFCPST>0.00</vFCPST>
+              <vFCPSTRet>0.00</vFCPSTRet>
+              <vProd>3700.00</vProd>
+              <vFrete>0.00</vFrete>
+              <vSeg>0.00</vSeg>
+              <vDesc>0.00</vDesc>
+              <vII>0.00</vII>
+              <vIPI>0.00</vIPI>
+              <vIPIDevol>0.00</vIPIDevol>
+              <vPIS>0.00</vPIS>
+              <vCOFINS>0.00</vCOFINS>
+              <vOutro>0.00</vOutro>
+              <vNF>3700.00</vNF>
+              <vTotTrib>1808.56</vTotTrib>
+            </ICMSTot>
+          </total>
+          <transp>
+            <modFrete>9</modFrete>
+          </transp>
+          <cobr>
+            <fat>
+              <nFat>14193</nFat>
+              <vOrig>3700.01</vOrig>
+              <vDesc>0.01</vDesc>
+              <vLiq>3700.00</vLiq>
+            </fat>
+            <dup>
+              <nDup>001</nDup>
+              <dVenc>2019-11-20</dVenc>
+              <vDup>1233.33</vDup>
+            </dup>
+            <dup>
+              <nDup>002</nDup>
+              <dVenc>2019-12-05</dVenc>
+              <vDup>1233.33</vDup>
+            </dup>
+            <dup>
+              <nDup>003</nDup>
+              <dVenc>2019-12-20</dVenc>
+              <vDup>1233.34</vDup>
+            </dup>
+          </cobr>
+          <pag>
+            <detPag>
+              <indPag>1</indPag>
+              <tPag>05</tPag>
+              <vPag>1233.33</vPag>
+            </detPag>
+            <detPag>
+              <indPag>1</indPag>
+              <tPag>05</tPag>
+              <vPag>1233.33</vPag>
+            </detPag>
+            <detPag>
+              <indPag>1</indPag>
+              <tPag>05</tPag>
+              <vPag>1233.34</vPag>
+            </detPag>
+          </pag>
+          <infAdic>
+            <infCpl>Vnd = 17377 Vendedor = 1 / ; Trib aprox R$ 1.161,06 Federal, R$ 647,50 Estadual Fonte: IBPT/FECOMERCIO (MS) Xe67Eq ;CST=500 = ICMS RECOLHIDO POR SUBSTITUICAO TRIBUTARIA / DOCUMENTO EMITIDO POR EMPRESA OPTANTE DO SIMPLES NACIONAL - NAO GERA DIREITO A CREDITO FISCAL DE: ICMS, IPI, ISS;ORC ORIGEM = 22723 / Vendedor = LUAN DOS SANTOS;439637 NFE 14193/3 BANCO ITAU comprador sr: EZIO</infCpl>
+          </infAdic>
+          <infRespTec>
+            <CNPJ>09517945000150</CNPJ>
+            <xContato>WENDEL WAGNER MARTINS NOGUEIRA</xContato>
+            <email>softcom.wendel@gmail.com</email>
+            <fone>6734238233</fone>
+          </infRespTec>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="#NFe11191004922336000162550010000225741005412676">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+              <DigestValue>tAdEm4kq0c7poRl8OKmVaWTcd0s=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>AXpPQ4WSTXmZ5SFODKMqDwkbr6IvvzS6pkaJiyEjA7FNehn9bV1JdWQZWWXVy1zBiG4XjDf4K1m98AqXWQocREvZSJLn25mu8ZGgP0c6+c91uzRV+hrfHpvpzuY3UbqeH9mXx+VpyWr1O0m3OZ9MyuSskjGnUzg/K+tpH3d7948IflEK4NO7Ns4XxS2OD5RCMwKYHnUKFI2woY8cVIyB8D4g+II5loII8UE/joylxYwNWBiwo1x3eDr7vbOrkoK6qd/+s3aw6vjt4zLtLlBGtVhIGpi0DeG4ZeWLocuABENMPy5QldE7N0cFKa89y0zFNMsyBsCDLNq8Tb4dgoYRkA==</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>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</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </NFe>
+      <protNFe versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+          <tpAmb>1</tpAmb>
+          <verAplic>SVRS201910021031</verAplic>
+          <chNFe>11191004922336000162550010000225741005412676</chNFe>
+          <dhRecbto>2019-10-21T10:26:59-04:00</dhRecbto>
+          <nProt>311190015846684</nProt>
+          <digVal>tAdEm4kq0c7poRl8OKmVaWTcd0s=</digVal>
+          <cStat>100</cStat>
+          <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+      </protNFe>
+    </nfeProc>

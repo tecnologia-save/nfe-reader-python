@@ -1,0 +1,334 @@
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+      <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe11190904922336000162550010000220941310370600" versao="4.00">
+          <ide>
+            <cUF>11</cUF>
+            <cNF>31037060</cNF>
+            <natOp>VENDA NO ESTADO</natOp>
+            <mod>55</mod>
+            <serie>1</serie>
+            <nNF>22094</nNF>
+            <dhEmi>2019-09-05T00:00:00-04:00</dhEmi>
+            <dhSaiEnt>2019-09-05T00:00:00-04:00</dhSaiEnt>
+            <tpNF>1</tpNF>
+            <idDest>1</idDest>
+            <cMunFG>1100205</cMunFG>
+            <tpImp>1</tpImp>
+            <tpEmis>1</tpEmis>
+            <cDV>0</cDV>
+            <tpAmb>1</tpAmb>
+            <finNFe>1</finNFe>
+            <indFinal>0</indFinal>
+            <indPres>0</indPres>
+            <procEmi>0</procEmi>
+            <verProc>3.0.0.0</verProc>
+          </ide>
+          <emit>
+            <CNPJ>04922336000162</CNPJ>
+            <xNome>J.M.CALDIM ROLAMENTOS RETENTORES E PECAS - EPP</xNome>
+            <xFant>CENTRO DOS ROLAMENTOS</xFant>
+            <enderEmit>
+              <xLgr>RUA ALMIRANTE BARROSO</xLgr>
+              <nro>1830</nro>
+              <xCpl>B</xCpl>
+              <xBairro>NOSSA SENHORA DAS GRACAS</xBairro>
+              <cMun>1100205</cMun>
+              <xMun>PORTO VELHO</xMun>
+              <UF>RO</UF>
+              <CEP>76804182</CEP>
+              <cPais>1058</cPais>
+              <xPais>BRASIL</xPais>
+              <fone>6932233291</fone>
+            </enderEmit>
+            <IE>00000001067711</IE>
+            <CRT>1</CRT>
+          </emit>
+          <dest>
+            <CNPJ>07555966000134</CNPJ>
+            <xNome>JUMI SUPER UTIL LTDA</xNome>
+            <enderDest>
+              <xLgr>RUA CAPITAO ESRON MENEZES,1267</xLgr>
+              <nro>000</nro>
+              <xBairro>AREAL</xBairro>
+              <cMun>1100205</cMun>
+              <xMun>PORTO VELHO</xMun>
+              <UF>RO</UF>
+              <CEP>76804310</CEP>
+              <cPais>1058</cPais>
+              <xPais>BRASIL</xPais>
+              <fone>32246237</fone>
+            </enderDest>
+            <indIEDest>1</indIEDest>
+            <IE>00000001422308</IE>
+          </dest>
+          <det nItem="1">
+            <prod>
+              <cProd>109572</cProd>
+              <cEAN>SEM GTIN</cEAN>
+              <xProd>10-9-572 ROL 6208ZZC3 SNR F0034</xProd>
+              <NCM>84821010</NCM>
+              <CEST>0104900</CEST>
+              <CFOP>5405</CFOP>
+              <uCom>PC</uCom>
+              <qCom>1.0000</qCom>
+              <vUnCom>50.7400000000</vUnCom>
+              <vProd>50.74</vProd>
+              <cEANTrib>SEM GTIN</cEANTrib>
+              <uTrib>PC</uTrib>
+              <qTrib>1.0000</qTrib>
+              <vUnTrib>50.7400000000</vUnTrib>
+              <vDesc>8.14</vDesc>
+              <indTot>1</indTot>
+            </prod>
+            <imposto>
+              <vTotTrib>20.83</vTotTrib>
+              <ICMS>
+                <ICMSSN500>
+                  <orig>1</orig>
+                  <CSOSN>500</CSOSN>
+                  <vBCSTRet>0.00</vBCSTRet>
+                  <pST>0.0000</pST>
+                  <vICMSSTRet>0.00</vICMSSTRet>
+                </ICMSSN500>
+              </ICMS>
+              <PIS>
+                <PISQtde>
+                  <CST>03</CST>
+                  <qBCProd>0.0000</qBCProd>
+                  <vAliqProd>0.0000</vAliqProd>
+                  <vPIS>0.00</vPIS>
+                </PISQtde>
+              </PIS>
+              <COFINS>
+                <COFINSAliq>
+                  <CST>01</CST>
+                  <vBC>0.00</vBC>
+                  <pCOFINS>0.0000</pCOFINS>
+                  <vCOFINS>0.00</vCOFINS>
+                </COFINSAliq>
+              </COFINS>
+            </imposto>
+          </det>
+          <det nItem="2">
+            <prod>
+              <cProd>23221</cProd>
+              <cEAN>SEM GTIN</cEAN>
+              <xProd>2-3-221 RET 00946BR ARCA C0026</xProd>
+              <NCM>40169300</NCM>
+              <CEST>0100700</CEST>
+              <CFOP>5405</CFOP>
+              <uCom>PC</uCom>
+              <qCom>1.0000</qCom>
+              <vUnCom>15.0000000000</vUnCom>
+              <vProd>15.00</vProd>
+              <cEANTrib>SEM GTIN</cEANTrib>
+              <uTrib>PC</uTrib>
+              <qTrib>1.0000</qTrib>
+              <vUnTrib>15.0000000000</vUnTrib>
+              <vDesc>1.66</vDesc>
+              <indTot>1</indTot>
+            </prod>
+            <imposto>
+              <vTotTrib>3.53</vTotTrib>
+              <ICMS>
+                <ICMSSN500>
+                  <orig>0</orig>
+                  <CSOSN>500</CSOSN>
+                  <vBCSTRet>0.00</vBCSTRet>
+                  <pST>0.0000</pST>
+                  <vICMSSTRet>0.00</vICMSSTRet>
+                </ICMSSN500>
+              </ICMS>
+              <PIS>
+                <PISQtde>
+                  <CST>03</CST>
+                  <qBCProd>0.0000</qBCProd>
+                  <vAliqProd>0.0000</vAliqProd>
+                  <vPIS>0.00</vPIS>
+                </PISQtde>
+              </PIS>
+              <COFINS>
+                <COFINSAliq>
+                  <CST>01</CST>
+                  <vBC>0.00</vBC>
+                  <pCOFINS>0.0000</pCOFINS>
+                  <vCOFINS>0.00</vCOFINS>
+                </COFINSAliq>
+              </COFINS>
+            </imposto>
+          </det>
+          <det nItem="3">
+            <prod>
+              <cProd>1138727</cProd>
+              <cEAN>SEM GTIN</cEAN>
+              <xProd>11-387-27 COLA ULTRARAPIDO TEKBONG</xProd>
+              <NCM>35061010</NCM>
+              <CFOP>5405</CFOP>
+              <uCom>UN</uCom>
+              <qCom>1.0000</qCom>
+              <vUnCom>8.0100000000</vUnCom>
+              <vProd>8.01</vProd>
+              <cEANTrib>SEM GTIN</cEANTrib>
+              <uTrib>UN</uTrib>
+              <qTrib>1.0000</qTrib>
+              <vUnTrib>8.0100000000</vUnTrib>
+              <vDesc>0.09</vDesc>
+              <indTot>1</indTot>
+            </prod>
+            <imposto>
+              <vTotTrib>0.33</vTotTrib>
+              <ICMS>
+                <ICMSSN500>
+                  <orig>0</orig>
+                  <CSOSN>500</CSOSN>
+                  <vBCSTRet>0.00</vBCSTRet>
+                  <pST>0.0000</pST>
+                  <vICMSSTRet>0.00</vICMSSTRet>
+                </ICMSSN500>
+              </ICMS>
+              <PIS>
+                <PISQtde>
+                  <CST>03</CST>
+                  <qBCProd>0.0000</qBCProd>
+                  <vAliqProd>0.0000</vAliqProd>
+                  <vPIS>0.00</vPIS>
+                </PISQtde>
+              </PIS>
+              <COFINS>
+                <COFINSAliq>
+                  <CST>01</CST>
+                  <vBC>0.00</vBC>
+                  <pCOFINS>0.0000</pCOFINS>
+                  <vCOFINS>0.00</vCOFINS>
+                </COFINSAliq>
+              </COFINS>
+            </imposto>
+          </det>
+          <det nItem="4">
+            <prod>
+              <cProd>19344511</cProd>
+              <cEAN>SEM GTIN</cEAN>
+              <xProd>19-344-511 COLA ULTRARRAPIDO WORKER/KALA 20G</xProd>
+              <NCM>35061010</NCM>
+              <CFOP>5405</CFOP>
+              <uCom>PC</uCom>
+              <qCom>2.0000</qCom>
+              <vUnCom>8.1700000000</vUnCom>
+              <vProd>16.34</vProd>
+              <cEANTrib>SEM GTIN</cEANTrib>
+              <uTrib>PC</uTrib>
+              <qTrib>2.0000</qTrib>
+              <vUnTrib>8.1700000000</vUnTrib>
+              <vDesc>0.20</vDesc>
+              <indTot>1</indTot>
+            </prod>
+            <imposto>
+              <vTotTrib>2.28</vTotTrib>
+              <ICMS>
+                <ICMSSN500>
+                  <orig>1</orig>
+                  <CSOSN>500</CSOSN>
+                  <vBCSTRet>0.00</vBCSTRet>
+                  <pST>0.0000</pST>
+                  <vICMSSTRet>0.00</vICMSSTRet>
+                </ICMSSN500>
+              </ICMS>
+              <PIS>
+                <PISQtde>
+                  <CST>03</CST>
+                  <qBCProd>0.0000</qBCProd>
+                  <vAliqProd>0.0000</vAliqProd>
+                  <vPIS>0.00</vPIS>
+                </PISQtde>
+              </PIS>
+              <COFINS>
+                <COFINSAliq>
+                  <CST>01</CST>
+                  <vBC>0.00</vBC>
+                  <pCOFINS>0.0000</pCOFINS>
+                  <vCOFINS>0.00</vCOFINS>
+                </COFINSAliq>
+              </COFINS>
+            </imposto>
+          </det>
+          <total>
+            <ICMSTot>
+              <vBC>0.00</vBC>
+              <vICMS>0.00</vICMS>
+              <vICMSDeson>0.00</vICMSDeson>
+              <vFCP>0.00</vFCP>
+              <vBCST>0.00</vBCST>
+              <vST>0.00</vST>
+              <vFCPST>0.00</vFCPST>
+              <vFCPSTRet>0.00</vFCPSTRet>
+              <vProd>90.09</vProd>
+              <vFrete>0.00</vFrete>
+              <vSeg>0.00</vSeg>
+              <vDesc>10.09</vDesc>
+              <vII>0.00</vII>
+              <vIPI>0.00</vIPI>
+              <vIPIDevol>0.00</vIPIDevol>
+              <vPIS>0.00</vPIS>
+              <vCOFINS>0.00</vCOFINS>
+              <vOutro>0.00</vOutro>
+              <vNF>80.00</vNF>
+              <vTotTrib>26.97</vTotTrib>
+            </ICMSTot>
+          </total>
+          <transp>
+            <modFrete>9</modFrete>
+          </transp>
+          <pag>
+            <detPag>
+              <tPag>90</tPag>
+              <vPag>0.00</vPag>
+            </detPag>
+            <detPag>
+              <tPag>01</tPag>
+              <vPag>80.00</vPag>
+            </detPag>
+          </pag>
+          <infAdic>
+            <infCpl>Vnd = 16650 Vendedor = 1 / ; Trib aprox R$ 17,18 Federal, R$ 9,79 Estadual Fonte: IBPT/FECOMERCIO (MS) Xe67Eq ;CST=500 = ICMS RECOLHIDO POR SUBSTITUICAO TRIBUTARIA / DOCUMENTO EMITIDO POR EMPRESA OPTANTE DO SIMPLES NACIONAL - NAO GERA DIREITO A CREDITO FISCAL DE: ICMS, IPI, ISS;ORC ORIGEM = 22233 / Vendedor = DIUALISSON SANTOS LEITE;435117 CAIXA</infCpl>
+          </infAdic>
+          <infRespTec>
+            <CNPJ>09517945000150</CNPJ>
+            <xContato>WENDEL WAGNER MARTINS NOGUEIRA</xContato>
+            <email>softcom.wendel@gmail.com</email>
+            <fone>6734238233</fone>
+          </infRespTec>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="#NFe11190904922336000162550010000220941310370600">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+              <DigestValue>LVt8KeO4SOMoI4TpsiupBCIL1E8=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>QxqXc98CwWxeAPZ4vi2/WlKl9abGouLBu4Cz2y6hn/tmwbOk9/ILyfnqtIVpeEqisDGxqX62xxFH6+lYEHFj5x1L93vsDub79nlcB+lZ5MdqaMLxQQuCVEQO0qSFtac4uKQkQmDyg/Im+E675A1VYbZlaWP6w5WPkFcAWsUSUP7unR0WUAPTZb8I7N/wzoOwu+NzynXYmSXY+rQ9ivsQDRLsloIAeOvtoHrgTPdul/EHdXfECfmEnNbrYpinyj8/KH1cdfrEXCADe6bf2KnMQpEo1sy5CuoGu5tQnC57GPYscTa/6zkULNopozLQBW0sGskkYyjOJwDQfWszReZgKQ==</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509Certificate>MIIHzDCCBbSgAwIBAgIINgNgqp+54D0wDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklDUC1CcmFzaWwxNjA0BgNVBAsMLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAwwQQUMgU0VSQVNBIFJGQiB2NTAeFw0xOTAxMTUyMDExMDBaFw0yMDAxMTUyMDExMDBaMIHrMQswCQYDVQQGEwJCUjELMAkGA1UECAwCUk8xFDASBgNVBAcMC1BPUlRPIFZFTEhPMRMwEQYDVQQKDApJQ1AtQnJhc2lsMTYwNAYDVQQLDC1TZWNyZXRhcmlhIGRhIFJlY2VpdGEgRmVkZXJhbCBkbyBCcmFzaWwgLSBSRkIxFjAUBgNVBAsMDVJGQiBlLUNOUEogQTExEjAQBgNVBAsMCUFSIFNFUkFTQTFAMD4GA1UEAww3SiBNIENBTERJTSBST0xBTUVOVE9TIFJFVEVOVE9SRVMgRSBQRUNBUzowNDkyMjMzNjAwMDE2MjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ8L5wYGCQlK3+XW+Yaq9slRwGN6OhazZiM/WSMpo+GUO83G1IFejmcQoFknY7iqHzC09/cc7dyXORhp+rFTV+XYmrBv7GNvVdvqMMnzQHpKaGF6pfa+N1vNzac6O2RFl51AGPaTu7drDzEDnnaZVKvtvVqNvUyG6Yr+v9BkXAX45zMzgN56b9lmb0MiPD+B7yUY9VtpuomnoVfwUtkUnGiyKHWKGKLrJiF9SomcYCKB6eZqnhBlNwAn/UNUGjON5wO0hgc2gYKu1qrObCe9evtpcWO+4iTekKtlGcpK/Z/qQyHGImfqTzqSMjVgyx5gYMiG4qWKiDkEnO8IKWAiEs8CAwEAAaOCAucwggLjMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAU7PFBUVeo5jrpXrOgIvkIirU6h48wgZkGCCsGAQUFBwEBBIGMMIGJMEgGCCsGAQUFBzAChjxodHRwOi8vd3d3LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvY2FkZWlhcy9zZXJhc2FyZmJ2NS5wN2IwPQYIKwYBBQUHMAGGMWh0dHA6Ly9vY3NwLmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvc2VyYXNhcmZidjUwgbcGA1UdEQSBrzCBrIEXU1VFTllfQ09TVEFASE9UTUFJTC5DT02gHQYFYEwBAwKgFBMSSk9BTyBNQU5PRUwgQ0FMRElNoBkGBWBMAQMDoBATDjA0OTIyMzM2MDAwMTYyoD4GBWBMAQMEoDUTMzA5MDUxOTc2NTkxNzQzODIyNjgwMDAwMDAwMDAwMDAwMDAwMDAwMDQ5Nzk3OVNTRENST6AXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwcQYDVR0gBGowaDBmBgZgTAECAQ0wXDBaBggrBgEFBQcCARZOaHR0cDovL3B1YmxpY2FjYW8uY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9yZXBvc2l0b3Jpby9kcGMvZGVjbGFyYWNhby1yZmIucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBnQYDVR0fBIGVMIGSMEqgSKBGhkRodHRwOi8vd3d3LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL3NlcmFzYXJmYnY1LmNybDBEoEKgQIY+aHR0cDovL2xjci5jZXJ0aWZpY2Fkb3MuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FyZmJ2NS5jcmwwHQYDVR0OBBYEFKgFJd41V3fTbCgOja49Mz1Re4lmMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAgEAb04TI7OVu1meILW0TeSLXanJcBUvhqnhJV9N+YUrLQ+YVq96rED2SARwOVCYZqYsDPDcMVoHWV+mgNO1u2cA7xBSslwss/t7FiFnQgQ328Il1jpn3rbQceUTnW0gEUr4BC4jwlmDRdrS/z3HU14ygTFNjiqvV0WtI025mwICAViJgwiVbm7+AdtAbFU/hqQzGgrHNpuNV2ejZmG+2ItT0ne4JU572XWurjfYGwGQAwWLvSNYoL+YDD+tcYdREpaOoB9SwN69g1JuyfbGcl+I5QwHiNK5f4LFqdpSqOTrjATU3b+2SSXq4R8KqTdfBlZPlGOSCaHEiLDcLfUYH+WRTQdhzRx1ckRHrZS/pvoupSIqj5vjxqA+BD0MtUcdMPiiRnrec3lqITbH+Db70SO/kPZC/nWVSIiG6j4sD2vO1W/v+asAWshdJFn+rPMH/83i92zyEX/jJPmZXjvEpt8P3Wg9B+LQ/+T/8I1eWqtYv9AH/ooCG3vJ6pSp+Jk+OuEwyDGFH7EV9AfduTN3D+sQXYu+Yyi/M7l+WfjZ+up+vqSeZtdm9ddYAEdohUE2yB67Reg+aVq9ZdnkXtmf11MYCy4V5kmDaSMpeq+0cSIjl5bUClkWFX1woD5wFhNlIkysADKeoD2ctod17/RVTg8u08p/MnJWExaQhV5zQwVqrTc=</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </NFe>
+      <protNFe versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+          <tpAmb>1</tpAmb>
+          <verAplic>SVRS201909030959</verAplic>
+          <chNFe>11190904922336000162550010000220941310370600</chNFe>
+          <dhRecbto>2019-09-05T16:05:18-04:00</dhRecbto>
+          <nProt>311190013342691</nProt>
+          <digVal>LVt8KeO4SOMoI4TpsiupBCIL1E8=</digVal>
+          <cStat>100</cStat>
+          <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+      </protNFe>
+    </nfeProc>
