@@ -51,6 +51,7 @@ def lambda_handler(event, context):
 
     nota_fiscal_dict['cliente'] = cliente
     nota_fiscal_dict['created_by'] = created_by
+    nota_fiscal_dict['nome_arquivo'] = [file_key.split("/")[-1]]
 
     return nota_fiscal_dict
 
