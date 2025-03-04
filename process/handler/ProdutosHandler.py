@@ -53,6 +53,7 @@ class ProdutosHandler:
                 impostos[imposto_tag.lower()] = imposto_class(imposto_elem, grupo[0]).to_dict()
 
 
+
         mappings = {
             "cofins": "cofins_produto",
             "icms": "icms_produto",
