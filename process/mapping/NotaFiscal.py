@@ -14,8 +14,7 @@ class NotaFiscal():
                 self.chave = re.sub(r'\D', '', self.chave)
 
         except AttributeError:
-            pass
-            # raise AttributeError("Atributo chave não encontrado. Verifique se o xml é válido")
+            raise AttributeError("Atributo chave não encontrado. Verifique se o xml é válido")
 
 
         if type == 'nfe':

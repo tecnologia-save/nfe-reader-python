@@ -5,7 +5,10 @@ class FaturaNFe:
 
         self.numero_fatura = extract_value(item, "./nFat")
         self.valor_original = extract_value(item, "./vOrig")
-        self.valor_desconto = extract_value(item, "./vDesc")
+
+        valor_desconto = extract_value(item, "./vDesc")
+        self.valor_desconto = valor_desconto if valor_desconto else 0
+
         self.valor_liquido = extract_value(item, "./vLiq")
 
     def to_dict(self):

@@ -18,9 +18,10 @@ class FaturaSave:
         self.save_duplicata(id_nota_fiscal, id_fatura)
 
     def save_duplicata(self, id_nota_fiscal, id_fatura):
-
+        
         if 'duplicatas' in self.fatura_dict:
             for duplicata in self.fatura_dict['duplicatas']:
+                
                 duplicata.update({
                     'fatura_nfe': id_fatura,
                     'nota_fiscal': id_nota_fiscal
