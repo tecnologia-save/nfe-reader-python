@@ -7,14 +7,15 @@ class NotaFiscal():
 
     def __init__(self, nfe, type):
 
-        # try:
+        try:
 
-        #     self.chave = nfe.attrib.get("Id")
-        #     if self.chave:
-        #         self.chave = re.sub(r'\D', '', self.chave)
+            self.chave = nfe.attrib.get("Id")
+            if self.chave:
+                self.chave = re.sub(r'\D', '', self.chave)
 
-        # except AttributeError:
-        #     raise AttributeError("Atributo chave não encontrado. Verifique se o xml é válido")
+        except AttributeError:
+            pass
+            # raise AttributeError("Atributo chave não encontrado. Verifique se o xml é válido")
 
 
         if type == 'nfe':

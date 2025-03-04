@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2.extras import execute_values
-
+from psycopg2.extras import Json
 class DB():
 
     def __init__(self):
@@ -12,13 +12,23 @@ class DB():
             password='password'
         )
 
+    def __enter__(self):
+        """Retorna a instância do objeto ao entrar no contexto."""
+        return self
 
-    def save_all(self, list_to_be_inserted, table_name, returning_values=None):
+    def __exit__(self, exc_type, exc_value, traceback):
+        """Fecha a conexão ao sair do contexto."""
+        if self.conn:
+            self.conn.close()
+            print("Conexão fechada.")
+
+    def save_all(self, list_to_be_inserted, table_name, returning_values=None, clear_complex_values=True):
         if not list_to_be_inserted:
             return []
-
-        listnfs = [self.clear_just_for_text_items(item) for item in list_to_be_inserted]
-
+        if clear_complex_values:
+            listnfs = [self.clear_just_for_text_items(item) for item in list_to_be_inserted]
+        else:
+            listnfs = list_to_be_inserted
         try:
 
             with self.conn.cursor() as cur:

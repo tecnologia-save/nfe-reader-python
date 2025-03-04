@@ -1,7 +1,9 @@
 def extract_value(xml_element, xpath):
-    result = xml_element.xpath(xpath)
-    return result[0].text if result else None
-
+    try:
+        result = xml_element.xpath(xpath)
+        return result[0].text if result else None
+    except:
+        return None
 
 
 def remove_namespaces(tree):
