@@ -52,4 +52,21 @@ class ProdutosHandler:
                 grupo = [child.tag for child in imposto_elem]
                 impostos[imposto_tag.lower()] = imposto_class(imposto_elem, grupo[0]).to_dict()
 
+
+        mappings = {
+            "cofins": "cofins_produto",
+            "icms": "icms_produto",
+            "pis": "pis_produto",
+            "cofinsst": "cofins_st_produto",
+            "issqn": "issqn_produto",
+            "ii": "imposto_importacao_produto",
+            "ipi": "ipi_produto",
+            "impostodevolucao": "imposto_devolucao_produto"
+        }
+
+
+        for imposto in list(impostos.keys()):
+            if imposto in mappings:
+                impostos[mappings[imposto]] = impostos.pop(imposto)
+
         return impostos
