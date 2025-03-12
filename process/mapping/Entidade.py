@@ -19,7 +19,12 @@ class Entidade:
         self.fone = extract_value(emit, "./fone")
 
 
+
         endereco = emit.find("./enderEmit")
+
+        if endereco is None:
+            endereco = emit.find("./enderDest")
+
         if endereco is not None:
             self.endereco = Endereco(endereco).to_dict()
 
